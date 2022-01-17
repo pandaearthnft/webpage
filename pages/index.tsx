@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 
 import type { NextPage } from "next";
 
@@ -21,7 +20,7 @@ const Home: NextPage = () => {
 
       <header className="py-10 flex justify-center md:justify-between items-center text-lg flex-wrap">
         <div className="flex items-center cursor-default">
-          <Image
+          <img
             alt="logo"
             width="75"
             height="75"
@@ -72,7 +71,7 @@ const Home: NextPage = () => {
             blockchain. Established May 8, 2018.
           </h2>
           <div className="relative w-[907px] h-[644px] my-6">
-            <Image src="/images/main.png" alt="pandas" layout="fill" />
+            <img src="/images/main.png" alt="pandas" width="100%" />
           </div>
         </div>
       </main>
